@@ -7,7 +7,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 // Generate "PRINCE-WB" in Slant font with alternating colors
-figlet('PRINCE-BOT', { font: 'Slant' }, (err, data) => {
+figlet('AHMED-BOT', { font: 'Slant' }, (err, data) => {
   if (err) {
     console.error(chalk.red('Figlet error:', err));
     return;
